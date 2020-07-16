@@ -9,9 +9,9 @@ Any thread trying to access the sheepCount variable while an atomic operation is
 
 Concurrency API includes numerous useful classes that are conceptually the same as our primitive classes but that support atomic operations.
 
-![alt text ](https://github.com/frhan//study-java/blob/master/images/7_3.png)
+![alt text ](https://github.com/frhan/study-java/blob/master/images/7_3.png)
 
-![alt text ](https://github.com/frhan//study-java/blob/master/images/7_4.png)
+![alt text ](https://github.com/frhan/study-java/blob/master/images/7_4.png)
 
 ## Improving Access with Synchronized Blocks
 the unexpected result of two tasks executing at the same time is referred to as a _race condition_.
