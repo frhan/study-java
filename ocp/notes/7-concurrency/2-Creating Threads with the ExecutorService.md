@@ -92,7 +92,7 @@ service.awaitTermination(1, TimeUnit.MINUTES);
 ```java
 ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
 ```
-![alt text ](https://github.com/frhan/ocp/blob/master/images/7_1.png)
+![alt text ](https://github.com/frhan/study-java/blob/master/images/7_1.png)
 
 ```java
 ScheduledExecutorService service = Executors.newSingleThreadScheduledExecutor();
@@ -115,7 +115,7 @@ For example, if the first task runs at 12:00 and takes five min- utes to finish,
 ### Increasing Concurrency with Pools
 A _thread pool_ is a group of pre-instantiated reusable threads that are available to perform a set of arbitrary tasks.
 
-![alt text ](https://github.com/frhan/ocp/blob/master/images/7_2.png)
+![alt text ](https://github.com/frhan/study-java/blob/master/images/7_2.png)
 
 The `newCachedThreadPool()` method will create a thread pool of unbounded size, allocating a new thread anytime one is required or all existing threads are busy. 
 
