@@ -30,18 +30,18 @@ for(String key: foodData.keySet())
 the ConcurrentHashMap is ordering read/write access such that all access to the class is consistent.
 
 ## Working with Concurrent Classes
-![alt text ](https://github.com/frhan/ocp/blob/master/images/7_5.png)
+![alt text ](https://github.com/study-java/ocp/blob/master/images/7_5.png)
 
 ## Understanding `Blocking` Queues
 the `BlockingQueue` is just like a regular Queue, except that it includes methods that will wait a specific amount of time to complete an operation.
 
-![alt text ](https://github.com/frhan/ocp/blob/master/images/7_6.png)
+![alt text ](https://github.com/frhan/study-java/blob/master/images/7_6.png)
 
-![alt text ](https://github.com/frhan/ocp/blob/master/images/7_7.png)
+![alt text ](https://github.com/frhan/study-java/blob/master/images/7_7.png)
 
-![alt text ](https://github.com/frhan/ocp/blob/master/images/7_8.png)
+![alt text ](https://github.com/frhan/study-java/blob/master/images/7_8.png)
 
-![alt text ](https://github.com/frhan/ocp/blob/master/images/7_9.png)
+![alt text ](https://github.com/frhan/study-java/blob/master/images/7_9.png)
 
 ## Understanding `SkipList` Collections
 The `SkipList` classes, `ConcurrentSkipListSet` and `ConcurrentSkipListMap`, are concurrent versions of their sorted counterparts, `TreeSet` and `TreeMap` , respectively
